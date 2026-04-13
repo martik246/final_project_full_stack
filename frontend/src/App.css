@@ -1,0 +1,284 @@
+.page-shell {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 0 3rem;
+}
+
+.hero-section {
+  padding: 2rem;
+  border-radius: 32px;
+  text-align: left;
+  background:
+    radial-gradient(circle at top right, rgba(255, 217, 170, 0.28), transparent 26%),
+    linear-gradient(135deg, #15353a, #1f5d63 58%, #d9b38c 160%);
+  color: #fff9f2;
+  box-shadow: 0 28px 60px rgba(17, 53, 58, 0.22);
+}
+
+.hero-topbar,
+.inline-heading,
+.booking-card,
+.slot-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.hero-topbar {
+  align-items: start;
+}
+
+.hero-badge,
+.pill {
+  align-self: start;
+  border-radius: 999px;
+  padding: 0.45rem 0.85rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.hero-badge {
+  background: rgba(255, 249, 242, 0.16);
+  border: 1px solid rgba(255, 249, 242, 0.24);
+}
+
+.eyebrow,
+.card-label {
+  margin: 0 0 0.65rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+.hero-copy {
+  max-width: 50rem;
+  font-size: 1.05rem;
+}
+
+.hero-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.hero-metrics article,
+.panel,
+.status-strip {
+  border: 1px solid rgba(21, 53, 58, 0.08);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(10px);
+}
+
+.hero-metrics article {
+  padding: 1.25rem;
+  color: #15353a;
+}
+
+.hero-metrics strong {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.status-strip {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+}
+
+.error-text {
+  color: #9f2e1f;
+  font-weight: 700;
+}
+
+.workspace-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.panel {
+  padding: 1.5rem;
+}
+
+.panel-wide {
+  grid-column: 1 / -1;
+}
+
+.panel-heading {
+  margin-bottom: 1rem;
+}
+
+.auth-grid,
+.profile-grid,
+.service-list,
+.slot-list,
+.booking-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.triple-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.auth-grid,
+.profile-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.stack-form {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.stack-form label {
+  display: grid;
+  gap: 0.35rem;
+  font-weight: 700;
+  color: #17363a;
+}
+
+.checkbox-label {
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+.stack-form input,
+.stack-form select,
+.stack-form textarea,
+button {
+  font: inherit;
+}
+
+.stack-form input,
+.stack-form select,
+.stack-form textarea {
+  border: 1px solid #cfd9d4;
+  border-radius: 14px;
+  padding: 0.85rem 0.95rem;
+  background: rgba(255, 255, 255, 0.92);
+  color: #15353a;
+}
+
+.checkbox-label input {
+  width: 18px;
+  height: 18px;
+}
+
+.service-card,
+.mini-card,
+.slot-card,
+.booking-card {
+  border: 1px solid #d6dfdb;
+  border-radius: 20px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.service-card-active {
+  border-color: #1f5d63;
+  box-shadow: 0 12px 24px rgba(31, 93, 99, 0.12);
+}
+
+.service-card,
+.booking-actions,
+.service-meta,
+.action-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.service-meta {
+  color: #496369;
+}
+
+.muted-text {
+  color: #5d7176;
+}
+
+.reset-stack {
+  align-content: start;
+}
+
+.token-line {
+  overflow-wrap: anywhere;
+  color: #335158;
+}
+
+.booking-copy,
+.slot-card > div {
+  display: grid;
+  gap: 0.35rem;
+}
+
+button {
+  border: none;
+  border-radius: 999px;
+  padding: 0.85rem 1.15rem;
+  font-weight: 700;
+  color: #fffaf2;
+  background: linear-gradient(135deg, #1f5d63, #15353a);
+  cursor: pointer;
+  transition: transform 0.16s ease, opacity 0.16s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.secondary-button {
+  color: #15353a;
+  background: #e7efeb;
+}
+
+.pill-open,
+.pill-confirmed {
+  background: #dff3e7;
+  color: #1f6b3f;
+}
+
+.pill-booked,
+.pill-pending {
+  background: #fff0cb;
+  color: #916001;
+}
+
+.pill-rejected,
+.pill-cancelled {
+  background: #fbd9d5;
+  color: #a12d1d;
+}
+
+@media (max-width: 980px) {
+  .workspace-grid,
+  .auth-grid,
+  .profile-grid,
+  .triple-grid,
+  .hero-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-topbar,
+  .status-strip,
+  .inline-heading,
+  .booking-card,
+  .slot-card {
+    flex-direction: column;
+  }
+}
