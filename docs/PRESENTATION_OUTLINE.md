@@ -14,9 +14,9 @@
 
 ## Slide 3. Proposed Solution
 
-- customers book services online
-- staff manage availability and booking decisions
-- admins monitor and control the platform
+- I let customers book services online
+- I give staff tools to manage availability and booking decisions
+- I give admins control over the platform
 
 ## Slide 4. Main Features
 
@@ -55,6 +55,6 @@
 
 ## Slide 8. Conclusion
 
-- BookEase solves a real business problem
-- the project demonstrates both frontend and backend skills
+- through BookEase, I solve a real business problem
+- the project demonstrates my frontend and backend skills
 - the platform is ready for further extension

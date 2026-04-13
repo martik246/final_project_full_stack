@@ -2,7 +2,7 @@
 
 ## Goal
 
-This file is a ready-to-use live demo sequence for project defense.
+I prepared this file as a ready-to-use live demo sequence for my project defense.
 
 ## Before the Demo
 
@@ -90,4 +90,4 @@ Talking point:
 
 ## Suggested Closing Sentence
 
-BookEase solves a real service-business scheduling problem and demonstrates frontend, backend, security, deployment, caching, logging, and testing in one integrated project.
+With BookEase, I solve a real service-business scheduling problem and demonstrate frontend, backend, security, deployment, caching, logging, and testing in one integrated project.

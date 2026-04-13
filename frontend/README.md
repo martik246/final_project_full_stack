@@ -1,16 +1,25 @@
-# React + Vite
+# BookEase Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I built the BookEase frontend with React and Vite. This workspace contains the client-side interface for authentication, booking, service browsing, slot management, and the role-based demo flow used in my project.
 
-Currently, two official plugins are available:
+## Main Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- provide the user interface for my BookEase project
+- connect the frontend to the Django backend API
+- support customer, staff, and admin interactions in one application
 
-## React Compiler
+## Development
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To run the frontend locally:
 
-## Expanding the ESLint configuration
+```bash
+copy ..\\.env.dev ..\\.env
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Notes
+
+- I use Vite for local development and fast rebuilds
+- the frontend communicates with the backend through the API helpers in `src/api.js`
+- the main UI flow is implemented in `src/App.jsx`

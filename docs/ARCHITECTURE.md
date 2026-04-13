@@ -2,7 +2,7 @@
 
 ## System Overview
 
-BookEase is organized as a multi-service full-stack application:
+I organized BookEase as a multi-service full-stack application:
 
 - `frontend` renders the React user interface and communicates with the backend over HTTP
 - `backend` exposes the Django REST API, authentication, admin tools, and business rules
@@ -62,7 +62,7 @@ Relationships:
 
 ## Caching Strategy
 
-BookEase currently caches:
+I currently cache the following in BookEase:
 
 - public service list
 - public open-slot list
@@ -75,7 +75,7 @@ Cache invalidation happens when:
 
 ## Logging Strategy
 
-Structured logging is configured for:
+I configured structured logging for:
 
 - account registration and login events
 - password reset activity
@@ -91,4 +91,4 @@ The repository includes:
 - `docker-compose.yml`
 - `nginx/default.conf`
 
-This supports a local multi-container deployment with backend, frontend, PostgreSQL, Redis, and Nginx.
+This setup supports my local multi-container deployment with backend, frontend, PostgreSQL, Redis, and Nginx.

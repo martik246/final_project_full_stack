@@ -76,7 +76,7 @@ function App() {
   const [serviceForm, setServiceForm] = useState(initialServiceForm);
   const [slotForm, setSlotForm] = useState(initialSlotForm);
   const [resetPreview, setResetPreview] = useState(null);
-  const [statusMessage, setStatusMessage] = useState("Loading BookEase workspace...");
+  const [statusMessage, setStatusMessage] = useState("Loading my BookEase workspace...");
   const [errorMessage, setErrorMessage] = useState("");
   const [isBusy, setIsBusy] = useState(true);
 
@@ -311,8 +311,8 @@ function App() {
       <section className="hero-section">
         <div className="hero-topbar">
           <div>
-            <p className="eyebrow">BookEase Live Workspace</p>
-            <h1>From project concept to a working booking platform.</h1>
+            <p className="eyebrow">My BookEase Live Workspace</p>
+            <h1>How I turned the project concept into a working booking platform.</h1>
           </div>
 
           <div className="hero-badge">
@@ -321,7 +321,7 @@ function App() {
         </div>
 
         <p className="hero-copy">
-          This screen now demonstrates the actual project flow: user authentication,
+          On this screen, I demonstrate the actual project flow: user authentication,
           password reset, service browsing, slot selection, booking creation, and booking
           management based on user roles.
         </p>

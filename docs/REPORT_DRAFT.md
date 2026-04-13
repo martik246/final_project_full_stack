@@ -9,19 +9,19 @@
 
 ## 1. Introduction
 
-BookEase is a full-stack web application developed to solve appointment-management problems for service-based businesses. Many small organizations still handle bookings through phone calls, direct messaging, or manual spreadsheets. This approach often leads to scheduling conflicts, low transparency, and inefficient communication between customers and staff.
+I developed BookEase as a full-stack web application to solve appointment-management problems for service-based businesses. Many small organizations still handle bookings through phone calls, direct messaging, or manual spreadsheets. This approach often leads to scheduling conflicts, low transparency, and inefficient communication between customers and staff.
 
-The goal of this project is to provide a centralized digital platform where customers can book services, staff can manage availability, and administrators can supervise operational data through a secure and structured system.
+My goal in this project is to provide a centralized digital platform where customers can book services, staff can manage availability, and administrators can supervise operational data through a secure and structured system.
 
 ## 2. System Design
 
 ### 2.1 Problem Statement
 
-The business problem addressed by BookEase is the lack of a clear and centralized scheduling workflow in service businesses. Manual booking processes increase the risk of missed appointments, duplicated reservations, and poor record keeping.
+The business problem I address in BookEase is the lack of a clear and centralized scheduling workflow in service businesses. Manual booking processes increase the risk of missed appointments, duplicated reservations, and poor record keeping.
 
 ### 2.2 Functional Architecture
 
-The system is structured into the following layers:
+I structured the system into the following layers:
 
 - React frontend for user interaction
 - Django REST backend for business logic and authentication
@@ -51,11 +51,11 @@ The system is structured into the following layers:
 
 ### 3.1 Technology Choice
 
-React was selected because it supports a dynamic user experience and a clear separation between UI and backend logic. Django REST Framework was chosen because it provides robust tools for API development, authentication, permissions, and serialization. PostgreSQL, Redis, Docker, and Nginx were included to reflect a more production-oriented architecture.
+I selected React because it supports a dynamic user experience and a clear separation between UI and backend logic. I chose Django REST Framework because it provides robust tools for API development, authentication, permissions, and serialization. I included PostgreSQL, Redis, Docker, and Nginx to reflect a more production-oriented architecture.
 
 ### 3.2 Core Business Logic
 
-The main business rules implemented in the project are:
+The main business rules I implemented in the project are:
 
 - customers can create bookings only for open slots
 - staff and admins can manage services and availability slots
@@ -65,7 +65,7 @@ The main business rules implemented in the project are:
 
 ### 3.3 Security Considerations
 
-Security-related implementation points include:
+The security-related implementation points I included are:
 
 - password hashing through Django authentication
 - password validation during registration and reset
@@ -75,9 +75,9 @@ Security-related implementation points include:
 
 ### 3.4 Caching and Logging
 
-Caching is used for the public service list and the public open-slot list. Cache invalidation is triggered automatically after changes to services, slots, or booking status.
+I use caching for the public service list and the public open-slot list. Cache invalidation is triggered automatically after changes to services, slots, or booking status.
 
-Structured logging records important application events such as:
+I use structured logging to record important application events such as:
 
 - registration and login
 - password reset activity
@@ -114,11 +114,11 @@ The repository includes:
 - `docker-compose.yml`
 - `nginx/default.conf`
 
-This allows the system to be deployed as a local multi-container environment with frontend, backend, database, cache, and reverse proxy services. Separate environment configurations are prepared for local development and production-like containerized execution.
+This setup allows me to deploy the system as a local multi-container environment with frontend, backend, database, cache, and reverse proxy services. I also prepared separate environment configurations for local development and production-like containerized execution.
 
 ## 5. Conclusion
 
-BookEase demonstrates a complete business-oriented full-stack workflow with user roles, authentication, password reset, CRUD features, caching, logging, testing, and containerization. The application solves a realistic scheduling problem and provides a strong basis for both technical presentation and future extension.
+With BookEase, I demonstrate a complete business-oriented full-stack workflow with user roles, authentication, password reset, CRUD features, caching, logging, testing, and containerization. This application solves a realistic scheduling problem and gives me a strong basis for both technical presentation and future extension.
 
 ## 6. Future Work
 

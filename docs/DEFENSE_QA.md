@@ -6,7 +6,7 @@ I chose BookEase because it solves a practical business problem and naturally su
 
 ## 2. Why did you use React and Django REST Framework?
 
-React was used to build an interactive single-page frontend. Django REST Framework was used because it provides a reliable backend structure, strong authentication support, clean serializers, and good tools for building secure APIs quickly.
+I used React to build an interactive single-page frontend. I used Django REST Framework because it provides a reliable backend structure, strong authentication support, clean serializers, and good tools for building secure APIs quickly.
 
 ## 3. How is authentication implemented?
 
@@ -54,7 +54,7 @@ The backend has automated tests for authentication, password reset, role permiss
 
 ## 13. Why did you include Docker, Nginx, PostgreSQL, and Redis?
 
-These tools make the project closer to a real deployment setup. Docker simplifies reproducible execution, Nginx acts as a reverse proxy, PostgreSQL provides production-oriented persistence, and Redis supports caching.
+I included these tools to make the project closer to a real deployment setup. Docker simplifies reproducible execution, Nginx acts as a reverse proxy, PostgreSQL provides production-oriented persistence, and Redis supports caching.
 
 ## 14. What would you improve next?
 

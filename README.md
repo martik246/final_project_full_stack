@@ -1,10 +1,10 @@
 # BookEase
 
-BookEase is a full-stack service booking platform created as a final project for Web Technology in Business and Web Application Development. The system helps service-based businesses manage appointments through a centralized workflow where customers book services, staff manage availability, and administrators oversee the platform.
+I created BookEase as a full-stack service booking platform for my final project in Web Technology in Business and Web Application Development. In this project, I solve appointment management for service-based businesses through a centralized workflow where customers book services, staff manage availability, and administrators oversee the platform.
 
 ## Project Summary
 
-BookEase addresses a real business problem: many small businesses still coordinate appointments through phone calls or messaging, which leads to scheduling conflicts, missed requests, and weak operational visibility. The platform replaces that manual process with a structured digital booking flow.
+In BookEase, I address a real business problem: many small businesses still coordinate appointments through phone calls or messaging, which leads to scheduling conflicts, missed requests, and weak operational visibility. I replace that manual process with a structured digital booking flow.
 
 ## Main Roles
 
@@ -109,7 +109,7 @@ docker compose exec backend python manage.py seed_demo
 5. Log in as `admin_demo` and create a new service or slot.
 6. Demonstrate the password reset flow in debug mode.
 
-The detailed presentation-friendly version is available in `docs/DEMO_SCRIPT.md`.
+I prepared a more presentation-friendly version in `docs/DEMO_SCRIPT.md`.
 
 ## API Areas
 
@@ -155,7 +155,7 @@ The detailed presentation-friendly version is available in `docs/DEMO_SCRIPT.md`
 
 ## Defense Materials
 
-The repository already contains project-defense support files in `docs/`:
+I also prepared project-defense support files in `docs/`:
 
 - `ARCHITECTURE.md`
 - `DEMO_SCRIPT.md`
@@ -170,4 +170,4 @@ The repository already contains project-defense support files in `docs/`:
 - use `.env.dev` for local development and `.env.prod` for containerized startup
 - replace any placeholder student information in presentation/report files before submission
 - use the documents in `docs/` as the basis for the final report and slides
-- the codebase contains short explanatory comments in key places to make project defense easier
+- I added short explanatory comments in key places to make the project defense easier

@@ -2,8 +2,8 @@
 
 ## Slide 1. Title
 
-Hello, my name is martik246, and I will present my final project called BookEase.  
-BookEase is a full-stack service booking platform developed for the courses Web Technology in Business and Web Application Development.
+Hello, my name is martik246, and today I am presenting my final project, BookEase.  
+I developed BookEase as a full-stack service booking platform for the courses Web Technology in Business and Web Application Development.
 
 ## Slide 2. Problem Statement
 
@@ -12,7 +12,7 @@ This often causes missed requests, scheduling conflicts, and poor transparency f
 
 ## Slide 3. Proposed Solution
 
-BookEase provides a centralized digital workflow.  
+With BookEase, I provide a centralized digital workflow.  
 Customers can browse services and book available slots, staff members can manage availability and approve bookings, and administrators can supervise the whole platform.
 
 ## Slide 4. Main Features
@@ -28,13 +28,13 @@ The main implemented features are:
 
 ## Slide 5. Architecture
 
-The frontend is built with React.  
-The backend is built with Django REST Framework.  
-For the production-oriented environment, the project also includes PostgreSQL, Redis, Docker Compose, and Nginx.
+I built the frontend with React.  
+I built the backend with Django REST Framework.  
+For the production-oriented environment, I also included PostgreSQL, Redis, Docker Compose, and Nginx.
 
 ## Slide 6. Security and Quality
 
-For security and quality, the project uses:
+To improve security and quality, I included:
 
 - Django password hashing
 - CSRF protection
@@ -54,5 +54,5 @@ In the live demo, I show:
 
 ## Slide 8. Conclusion
 
-In conclusion, BookEase solves a real business problem and demonstrates both frontend and backend development skills.  
-The project also includes security, testing, caching, logging, and containerized deployment support, which makes it a complete final project rather than only a simple CRUD application.
+In conclusion, through BookEase I solve a real business problem and demonstrate both frontend and backend development skills.  
+I also included security, testing, caching, logging, and containerized deployment support, which makes this a complete final project rather than only a simple CRUD application.

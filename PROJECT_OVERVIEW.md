@@ -8,11 +8,11 @@
 
 ## Project Idea
 
-BookEase is a web platform that allows customers to book business services online, while staff members manage availability and booking requests through a secure dashboard.
+I designed BookEase as a web platform that allows customers to book business services online, while staff members manage availability and booking requests through a secure dashboard.
 
-The project addresses a common business problem: many small service-based businesses still rely on phone calls or manual messaging to manage appointments. This causes scheduling conflicts, missed bookings, and poor visibility for both customers and staff.
+In this project, I address a common business problem: many small service-based businesses still rely on phone calls or manual messaging to manage appointments. This causes scheduling conflicts, missed bookings, and poor visibility for both customers and staff.
 
-BookEase solves this problem by providing a centralized digital booking workflow.
+I solve this problem by providing a centralized digital booking workflow through BookEase.
 
 ## Main Users
 
@@ -44,7 +44,7 @@ BookEase solves this problem by providing a centralized digital booking workflow
 
 ## Why This Topic Was Chosen
 
-This topic was selected because it matches the project requirements very well:
+I selected this topic because it matches the project requirements very well:
 
 - it has a clear real-world business use case
 - it supports multiple user roles naturally
@@ -62,10 +62,10 @@ This topic was selected because it matches the project requirements very well:
 
 ## Planned Development Direction
 
-The implementation will follow a clean and explainable structure so the code is easy to present during review and defense. Important business logic will include short explanatory comments to make the codebase easier to navigate.
+I structured the implementation to stay clean and easy to explain during review and defense. I also added short explanatory comments around important business logic to make the codebase easier to navigate.
 
 ## Notes For Presentation
 
-When presenting this project, the main business value can be summarized like this:
+When I present this project, I summarize its main business value like this:
 
-> BookEase helps service businesses reduce scheduling friction by letting customers self-book appointments while giving staff a clear workflow for managing service availability and booking approvals.
+> In BookEase, I help service businesses reduce scheduling friction by letting customers self-book appointments while giving staff a clear workflow for managing service availability and booking approvals.

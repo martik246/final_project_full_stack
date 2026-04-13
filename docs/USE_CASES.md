@@ -64,10 +64,10 @@
 
 - actor: admin
 - goal: oversee users, services, bookings, and slots
-- result: platform data remains accurate and controlled
+- result: I can keep platform data accurate and controlled
 
 ### 11. Monitor system behavior
 
 - actor: admin
 - goal: review logs and runtime behavior
-- result: operational events can be traced
+- result: I can trace operational events
